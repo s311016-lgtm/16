@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>郁婷的個人簡介</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #e07ebb;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>個人簡介</h2>
+<p>我是一位熱愛學習、對新知充滿好奇的人，面對挑戰時總是全力以赴。因為擁有強烈的好勝心，我不輕易向困難低頭，反而把每一次挫折當作成長的養分。</p>
+<p>在學習過程中，我持續精進自我，期許自己不斷突破，朝更好的方向前進。</p>
+
+<header>
+  <h2><img src="image/4.png" width="100%"></h2>
+</header>
+<nav>
+  <ul>
+    <li><a href="1.html">課程介紹</a>
+    <li><a href="2.html">活動社團</a>
+    <li><a href="3.html">個人簡介</a>
+</nav>
+</article>
+</section>
+
+<article>    <p>她是南投高中的學生，氣質自然純真，帶著自信和專注，散發出積極努力的學習態度，讓人感受到她對未來滿滿的期許與熱情。
+</p>
+<p>升學的路不一定輕鬆，但我願意為未來的自己再努力一次。現在的堅持，都是通往更好明天的證明.</p>
+<h2><img src="image/1.png" width="30%"></h2>
+
+
+<section>
+<footer>
+  <p>  版權所有:南投高中 16 陳郁婷</p>
+</footer>
+
+</body>
+</html>
+
